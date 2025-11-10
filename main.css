@@ -121,17 +121,19 @@ a:hover {
     border-radius: 6px;
     text-decoration: none;
     color: #222;
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     font-weight: 600;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
 }
 
 .lang-btn:hover {
-    background-color: #d1d1d1;
+    background-color: #d6d6d6;
+    transform: scale(1.05);
 }
 
 .lang-btn.active {
-    background-color: #333;
-    color: #fff;
-    border-color: #333;
+    background-color: #666;   /* активна кнопка сірого кольору */
+    color: #fff;              /* білий текст */
+    border-color: #444;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
